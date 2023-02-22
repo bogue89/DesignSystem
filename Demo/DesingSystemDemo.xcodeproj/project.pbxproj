@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70EE3E972964D74E000765B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EE3E962964D74E000765B6 /* ContentView.swift */; };
+		70EE3E992964EB01000765B6 /* DesignSystemDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EE3E982964EB01000765B6 /* DesignSystemDimensions.swift */; };
 		70FA71822952210800933945 /* DesingSystemDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FA71812952210800933945 /* DesingSystemDemoApp.swift */; };
 		70FA71842952210800933945 /* AtomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FA71832952210800933945 /* AtomsView.swift */; };
 		70FA71862952210900933945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70FA71852952210900933945 /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70EE3E962964D74E000765B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		70EE3E982964EB01000765B6 /* DesignSystemDimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemDimensions.swift; sourceTree = "<group>"; };
 		70FA717E2952210800933945 /* DesingSystemDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesingSystemDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FA71812952210800933945 /* DesingSystemDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesingSystemDemoApp.swift; sourceTree = "<group>"; };
 		70FA71832952210800933945 /* AtomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomsView.swift; sourceTree = "<group>"; };
@@ -72,6 +76,7 @@
 			children = (
 				70FA7192295278FD00933945 /* Info.plist */,
 				70FA71812952210800933945 /* DesingSystemDemoApp.swift */,
+				70EE3E962964D74E000765B6 /* ContentView.swift */,
 				70FA719A2953BA1000933945 /* Views */,
 				70FA719B2953BA1800933945 /* DesingSystem */,
 				70FA71852952210900933945 /* Assets.xcassets */,
@@ -121,6 +126,7 @@
 				70FA719E2953BB0E00933945 /* DesignSystemColors.swift */,
 				70FA71A22953BB6900933945 /* DesignSystemImages.swift */,
 				70FA719C2953BAE100933945 /* DesignSystemStyles.swift */,
+				70EE3E982964EB01000765B6 /* DesignSystemDimensions.swift */,
 			);
 			path = DesingSystem;
 			sourceTree = "<group>";
@@ -199,10 +205,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				70FA71972953864800933945 /* DesignSystem.swift in Sources */,
+				70EE3E992964EB01000765B6 /* DesignSystemDimensions.swift in Sources */,
 				70FA719F2953BB0E00933945 /* DesignSystemColors.swift in Sources */,
 				70FA71A12953BB4800933945 /* DesignSystemFonts.swift in Sources */,
 				70FA719D2953BAE100933945 /* DesignSystemStyles.swift in Sources */,
 				70FA71842952210800933945 /* AtomsView.swift in Sources */,
+				70EE3E972964D74E000765B6 /* ContentView.swift in Sources */,
 				70FA71A32953BB6900933945 /* DesignSystemImages.swift in Sources */,
 				70FA71992953B6A100933945 /* StyledView.swift in Sources */,
 				70FA71822952210800933945 /* DesingSystemDemoApp.swift in Sources */,

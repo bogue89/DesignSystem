@@ -10,16 +10,20 @@ import DesignSystem
 import Atoms
 
 struct AtomsView: View {
-    
-    @Environment(\.designSystem) var designSystem
+    @Environment(\.designSystem.colors)
+    var colors
+    @Environment(\.designSystem.images)
+    var images
+    @Environment(\.designSystem.fonts)
+    var fonts
     
     var body: some View {
         VStack {
-            Image(designSystem.images.background.name)
+            Image(images.background)
             Text("Hello, world!")
                 .style(
-                    .font(designSystem.fonts.display),
-                    .foregroundColor(designSystem.colors.primary)
+                    .font(fonts.display),
+                    .foregroundColor(colors.primary)
                 )
         }
         .padding()

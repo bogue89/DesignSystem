@@ -14,4 +14,11 @@ extension DesignSystem.Images {
         .init("CustomImage")
     }
     
+    var globeIcon: Atoms.Image {
+        .init("globe")
+    }
+    
+    var paletteIcon: Atoms.Image {
+        .init("paintpalette")
+    }
 }

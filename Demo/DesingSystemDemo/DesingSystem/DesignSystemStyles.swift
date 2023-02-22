@@ -14,7 +14,8 @@ extension DesignSystem {
         .init(
             .font(fonts.button),
             .backgroundColor(colors.primary),
-            .foregroundColor(colors.text)
+            .foregroundColor(colors.text),
+            .corner(dimensions.buttonCornerRadius)
         )
     }
     
@@ -22,7 +23,8 @@ extension DesignSystem {
         .init(
             .font(fonts.button),
             .backgroundColor(colors.destructive),
-            .foregroundColor(colors.text)
+            .foregroundColor(colors.text),
+            .corner(dimensions.buttonCornerRadius)
         )
     }
     

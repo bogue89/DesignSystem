@@ -20,7 +20,12 @@ extension DesignSystem.Fonts {
     }
     
     var button: Atoms.Font {
-        .init("Helvetica Bold", size: 18)
+        switch environment {
+        case .production:
+            return .init("Helvetica Bold", size: 18)
+        default:
+            return .init("Helvetica", size: 18)
+        }
     }
     
 }

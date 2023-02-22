@@ -11,14 +11,15 @@ import SwiftUI
 struct DesingSystemDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            TabView {
-                AtomsView().tabItem({
-                    Text("Hello")
-                })
-                StyledView().tabItem({
-                    Text("Buttons")
-                })
-            }
+            ContentView()
+        }
+    }
+}
+
+struct DesingSystemDemo_Previews: PreviewProvider {
+    static var previews: some View {
+        Group {
+            ContentView()
         }
     }
 }
